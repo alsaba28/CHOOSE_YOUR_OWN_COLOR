@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Life</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        .romantic {
+        font-family: 'Great Vibes', cursive;
+        }
+    </style>
+
+    <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/48/rainbow.png">
+
+
+</head>
+<body class="romantic bg-gray-900 space-x-[30px] space-y-5">
+    <h1 class="text-center text-[30px] font-bold text-white uppercase">Choose Your Own Color</h1>
+    <button onclick="pink()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Pink</button>
+    <button onclick="lightPink()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light pink</button>
+    <button onclick="hotPink()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Hot Pink</button>
+    <button onclick="peacePuff()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Peach Puff</button>
+    <button onclick="mistyRose()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Misty Rose</button>
+    <button onclick="lavender()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Lavender</button>
+    <button onclick="plum()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Plum</button>
+    <button onclick="violet()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Violet</button>
+    <button onclick="thistle()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Thistle</button>
+    <button onclick="skyBlue()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Skyblue</button>
+    <button onclick="powderBlue()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Powder Blue</button>
+    <button onclick="lightBlue()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light Blue</button>
+    <button onclick="paleTurquoise()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Pale Turquoise</button>
+    <button onclick="mintCream()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Mint Cream</button>
+    <button onclick="honeyDew()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Honey Dew</button>
+    <button onclick="lemonChiffon()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Lemon Chiffon</button>
+    <button onclick="lightYellow()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light Yellow</button>
+    <button onclick="papayaWhip()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Papaya Whip</button>
+    <button onclick="cornSilk()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Corn Silk</button>
+    <button onclick="wheat()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Wheat</button>
+    <button onclick="lightSalmon()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light Salmon</button>
+    <button onclick="coral()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Coral</button>
+    <button onclick="salmon()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Salmon</button>
+    <button onclick="lightGreen()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light Green</button>
+    <button onclick="paleGreen()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Pale Green</button>
+    <button onclick="lightCoral()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light Coral</button>
+    <button onclick="deepPink()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Deep pink</button>
+    <button onclick="orchid()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Orchid</button>
+    <button onclick="mediumPurple()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Medium Purple</button>
+    <button onclick="aqua()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Aqua</button>
+    <button onclick="lightSkyBlue()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Light Sky Blue</button>
+    <button onclick="khaki()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Khaki</button>
+    <button onclick="maroon()" class="border border-solid border-[#D1D5DB] rounded py-[5px] px-[25px] bg-slate-400 text-white transform-all duration-300 hover:scale-105 hover:shadow-lg">Maroon</button>
+    <script src="./script.js"></script>
+</body>
+</html>
