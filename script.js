@@ -99,3 +99,9 @@ function maroon() {
   document.body.style.backgroundColor = "maroon";
 }
 
+document
+  .getElementById("btn-make-tea")
+  .addEventListener('click', function makeTea() {
+    document.body.style.backgroundColor = "#6FC276";
+  });
+
